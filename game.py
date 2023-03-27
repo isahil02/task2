@@ -30,7 +30,7 @@ def next_turn(row, column):
                 label.config(text=(players[0]+" turn"))
 
             elif check_winner() is True:
-                label.config(text=(players[1]+" wins"))
+              
 
             elif check_winner() == "Tie":
                 label.config(text="Tie!")
